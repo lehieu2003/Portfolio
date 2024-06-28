@@ -10,8 +10,6 @@ export const personalData = {
   github: "https://github.com/lehieu2003",
   facebook: "https://www.facebook.com/profile.php?id=100049807973142",
   linkedIn: "https://www.linkedin.com/in/hieu-le-202859311/",
-
-  devUsername: "said7388",
   resume:
     "https://drive.google.com/file/d/10qb_Wh2vuD1f8S0B51Iob-31lmZX7D1Q/view?usp=sharing",
 };
