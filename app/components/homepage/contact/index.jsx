@@ -8,10 +8,18 @@ import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactWithCaptcha from "./contact-with-captcha";
 import ContactWithoutCaptcha from "./contact-without-captcha";
+import Image from "next/image";
 
 function ContactSection() {
   return (
     <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white">
+      <Image
+        src="/section.svg"
+        alt="Hero"
+        width={1572}
+        height={795}
+        className="absolute top-0 left-1 -z-10"
+      />
       <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           CONTACT

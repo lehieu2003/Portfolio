@@ -1,5 +1,3 @@
-// @flow strict
-
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +14,7 @@ function HeroSection() {
         alt="Hero"
         width={1572}
         height={795}
-        className="absolute -top-[98px] -z-10"
+        className="absolute -top-[12px] -z-10"
       />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
