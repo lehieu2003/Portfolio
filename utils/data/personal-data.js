@@ -1,6 +1,6 @@
 export const personalData = {
   name: "HIEU LEE",
-  profile: "/profile1.png",
+  profile: "/avartar1.png",
   designation: "Software Developer",
   description:
     "My name is Hieu, and I am a third-year Software Engineering student at International University. I have hands-on experience building web applications using ReactJS, React Native, NodeJS, and Java. With my knowledge of UI/UX design, I enjoy solving front-end problems and creating the best user experience for users. I am also committed to learning new technologies and best practices to become a better engineer.",
