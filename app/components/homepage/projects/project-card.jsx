@@ -52,6 +52,11 @@ function ProjectCard({ project }) {
             <span className="text-orange-400">{project.position}</span>
             <span className="text-gray-400">,</span>
           </div>
+          <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">githubLink:</span>
+            <span className="text-orange-400">{project.githubLink}</span>
+            <span className="text-gray-400">,</span>
+          </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{" " + project.description}</span>

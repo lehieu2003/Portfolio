@@ -11,8 +11,7 @@ export const projectsData = [
       "Megaman is a popular video game series from the manufacturer Capcom, first appearing on the Nintendo Entertainment System (NES) game console in 1987. Megaman game tells about the adventures of the main character, Megaman, a robot led by a scientist named Dr. Light created to defeat the villain Dr. Wily and the robot names he created.",
     technologiesUsed: ["Java", "Java Swing"],
     position: "SOFTWARE DEVELOPER",
-    code: "",
-    demo: "",
+    githubLink: "https://github.com/lehieu2003/GameProject.git",
     image: crefin,
   },
   {
@@ -21,10 +20,8 @@ export const projectsData = [
     description:
       "Minesweeper is a classic single-player puzzle game that originated in the 1960s. The game became widely popular when it was included in the Microsoft Windows operating system.",
     technologiesUsed: ["Java", "Java Swing"],
-
     position: "SOFTWARE DEVELOPER",
-    code: "",
-    demo: "",
+    githubLink: "https://github.com/lehieu2003/Mine-Sweeper.git",
     image: travel,
   },
   {
@@ -41,9 +38,8 @@ export const projectsData = [
       "My SQL",
       "Java Spring Boot",
     ],
-    code: "",
     position: "FRONT-END DEVELOPER",
-    demo: "",
+    githubLink: "https://github.com/lehieu2003/Railway-Sytem-Full.git",
     image: realEstate,
   },
   {
@@ -52,10 +48,9 @@ export const projectsData = [
     description:
       "In the Parcel Locker Mobile App project, I served as the Front-End Developer and Lead of the UI/UX Team. Our primary goal was to create a seamless and user-friendly mobile application that allows users to easily manage their parcel deliveries and collections from automated locker systems.",
     technologiesUsed: ["Typescript", "TailwindCSS", "React Navigation"],
-    code: "",
-    demo: "",
     image: ayla,
     position: "FRONT-END DEVELOPER & LEAD UI/UX TEAM",
+    githubLink: "private",
   },
   {
     id: 5,
@@ -69,9 +64,9 @@ export const projectsData = [
       "React Router",
       "Dnd-kit",
     ],
-    code: "",
-    demo: "",
+
     image: ayla,
     position: "FULL STACK DEVELOPER",
+    githubLink: "https://github.com/lehieu2003/trello-web.git",
   },
 ];
