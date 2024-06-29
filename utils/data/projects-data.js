@@ -31,7 +31,7 @@ export const projectsData = [
     id: 3,
     name: "Online Train Ticket Booking",
     description:
-      "My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.",
+      "Our team primarily relies on HTML and CSS for the web development, JavaScript for the frontend, Java for the backend, and SQL for the database. JavaScript's versatility allows us to create interactive and dynamic web pages, while Node.js enables us to build scalable and efficient server-side applications. SQL helps us manage and query our relational database effectively.",
     technologiesUsed: [
       "ReactJs",
       "TailwindCSS",
@@ -50,7 +50,7 @@ export const projectsData = [
     id: 4,
     name: "Parcel Locker Mobile App",
     description:
-      "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+      "In the Parcel Locker Mobile App project, I served as the Front-End Developer and Lead of the UI/UX Team. Our primary goal was to create a seamless and user-friendly mobile application that allows users to easily manage their parcel deliveries and collections from automated locker systems.",
     technologiesUsed: ["Typescript", "TailwindCSS", "React Navigation"],
     code: "",
     demo: "",
@@ -61,7 +61,7 @@ export const projectsData = [
     id: 5,
     name: "Trello Web App Clone",
     description:
-      "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+      "As a Full Stack Developer on the Trello Web App Clone project, I was responsible for creating a feature-rich, interactive web application that replicates the core functionalities of the Trello project management tool.",
     technologiesUsed: [
       "ReactJS",
       "TailwindCSS",
