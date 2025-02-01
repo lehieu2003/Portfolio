@@ -7,14 +7,14 @@ export const educations = [
   },
   {
     id: 2,
-    title: "",
-    duration: "",
-    institution: "",
+    title: " Second Prize - IT GOT TALENT (Smart Device category)",
+    duration: "11/2024",
+    institution: "HUTECH University",
   },
-  {
-    id: 3,
-    title: "",
-    duration: "",
-    institution: "",
-  },
+  // {
+  //   id: 3,
+  //   title: "",
+  //   duration: "",
+  //   institution: "",
+  // },
 ];

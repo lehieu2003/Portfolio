@@ -2,7 +2,6 @@
 # Developer Portfolio
 
 ### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
 ---
 
 # Demo :movie_camera:
@@ -19,6 +18,7 @@
 ![image](https://github.com/lehieu2003/Portfolio/assets/127474151/a8932e66-0fc3-4045-aeeb-ad0ab3c62a6b)
 ![image](https://github.com/lehieu2003/Portfolio/assets/127474151/576c1e25-23e7-4684-9248-b7b6f5f0f19b)
 ![image](https://github.com/lehieu2003/Portfolio/assets/127474151/0bfcdddd-20fd-4b4c-ae2c-b61a1485c145)
+
 ---
 
 # Installation :arrow_down:
@@ -69,6 +69,51 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
+# How to Run This Project
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd Portfolio
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Build the project:**
+
+   ```bash
+   npm run build
+   ```
+
+6. **Start the production server:**
+
+   ```bash
+   npm start
+   ```
+
+7. **Lint the project:**
+   ```bash
+   npm run lint
+   ```
+
+---
+
 # Usage :joystick:
 
 Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
@@ -91,21 +136,20 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "HIEU LEE",
-  profile: "/profile1.png",
-  designation: "Software Developer",
+  name: 'HIEU LEE',
+  profile: '/profile1.png',
+  designation: 'Software Developer',
   description:
-    "My name is Hieu, and I am a third-year Software Engineering student at International University. I have hands-on experience building web applications using ReactJS, React Native, NodeJS, and Java. With my knowledge of UI/UX design, I enjoy solving front-end problems and creating the best user experience for users. I am also committed to learning new technologies and best practices to become a better engineer.",
-  email: "lehieunghiahanh76@gmail.com",
-  phone: "0868296322",
-  address: "Thu Duc, Ho Chi Minh City, Vietnam",
-  github: "https://github.com/lehieu2003",
-  facebook: "https://www.facebook.com/profile.php?id=100049807973142",
-  linkedIn: "https://www.linkedin.com/in/hieu-le-202859311/",
+    'My name is Hieu, and I am a third-year Software Engineering student at International University. I have hands-on experience building web applications using ReactJS, React Native, NodeJS, and Java. With my knowledge of UI/UX design, I enjoy solving front-end problems and creating the best user experience for users. I am also committed to learning new technologies and best practices to become a better engineer.',
+  email: 'lehieunghiahanh76@gmail.com',
+  phone: '0868296322',
+  address: 'Thu Duc, Ho Chi Minh City, Vietnam',
+  github: 'https://github.com/lehieu2003',
+  facebook: 'https://www.facebook.com/profile.php?id=100049807973142',
+  linkedIn: 'https://www.linkedin.com/in/hieu-le-202859311/',
   resume:
-    "https://drive.google.com/file/d/10qb_Wh2vuD1f8S0B51Iob-31lmZX7D1Q/view?usp=sharing",
+    'https://drive.google.com/file/d/10qb_Wh2vuD1f8S0B51Iob-31lmZX7D1Q/view?usp=sharing',
 };
-
 ```
 
 ---
