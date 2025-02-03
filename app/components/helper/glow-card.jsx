@@ -2,7 +2,11 @@
 import { useEffect } from 'react';
 
 const GlowCard = ({ children , identifier}) => {
+  const isClientSize = typeof window !== 'undefined'; 
   useEffect(() => {
+    if (!isClientSize) {
+      return;
+    }
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
 
@@ -65,7 +69,7 @@ const GlowCard = ({ children , identifier}) => {
     return () => {
       document.body.removeEventListener('pointermove', UPDATE);
     };
-  }, [identifier]);
+  }, [identifier, isClientSize]);
 
   return (
     <div className={`glow-container-${identifier} glow-container`}>
