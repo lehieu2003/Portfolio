@@ -5,7 +5,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <HeroSection />
