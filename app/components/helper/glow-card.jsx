@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 const GlowCard = ({ children , identifier}) => {
   const isClientSize = typeof window !== 'undefined'; 
   useEffect(() => {
-    if (!isClientSize) {
+    if (!isClientSize && !document) {
       return;
     }
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);

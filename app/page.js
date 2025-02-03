@@ -12,7 +12,7 @@ export default async function Home() {
       <AboutSection />
       <Skills />
       <Projects />
-      {/* <Education /> */}
+      <Education />
       <ContactSection />
     </>
   );
